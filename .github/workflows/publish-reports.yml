@@ -1,0 +1,32 @@
+name: Publicar Reportes en GitHub Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy-reports:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Code checkout
+        uses: actions/checkout@v4
+
+      - name: Detect Gatling report folder
+        id: gatling_folder
+        run: echo "FOLDER=$(ls target/gatling | head -n 1)" >> $GITHUB_ENV
+
+      - name: Create gh-pages Folder
+        run: |
+          mkdir -p gh-pages
+          cp -r target/cluecumber-report gh-pages/karate-report
+          cp -r target/gatling/$FOLDER gh-pages/gatling-report
+
+      - name: Publish to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: gh-pages
+          clean: true

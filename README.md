@@ -12,7 +12,14 @@ With this integration, it is possible to perform both API (REST) and Performance
 - Reusability: The same functional scenarios can be leveraged for performance testing, reducing effort and improving maintainability.
 
 ## Reports
-- Karate: They are generated in the folder ```target/cluecumber-report/index.html folder```
+Reports are displayed directly in a GitHub Pages after generated and automated through a pipeline.
+
+- Karate: 
+- Gatling:
+
+They are also saved in the following path in case they are needed for downloading or consulting:
+
+- Karate: They are generated in the folder ```target/cluecumber-report/index.html```
 - Gatling: They are generated in the folder ```target/gatling/petstoreperformancesimulation-000000000/index.html```
 
 ## Validated Cases
