@@ -13,8 +13,8 @@ With this integration, it is possible to perform both API (REST) and Performance
 
 ## Reports
 Reports are displayed directly in a GitHub Pages after generated and automated through a pipeline.
-* [Karate:](https://gabrielnunez2395.github.io/Challenge_Visa_Karate_Gatling/karate-report/)
-* [Gatling:](https://gabrielnunez2395.github.io/Challenge_Visa_Karate_Gatling/karate-report/)
+* [Karate Report](https://gabrielnunez2395.github.io/Challenge_Visa_Karate_Gatling/karate-report/)
+* [Gatling Report](https://gabrielnunez2395.github.io/Challenge_Visa_Karate_Gatling/gatling-report/)
 
 They are also saved in the following path in case they are needed for downloading or consulting:
 

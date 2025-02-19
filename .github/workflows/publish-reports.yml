@@ -1,7 +1,9 @@
 name: Publicar Reportes en GitHub Pages
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
