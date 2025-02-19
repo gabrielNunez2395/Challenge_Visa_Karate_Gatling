@@ -1,4 +1,4 @@
-name: Publicar Reportes en GitHub Pages
+name: Publish Reports in GitHub Pages
 
 on:
   push:
