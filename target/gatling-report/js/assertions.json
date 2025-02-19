@@ -1,0 +1,10 @@
+{
+  "simulation": "performance.PetstorePerformanceSimulation",
+  "simulationId": "petstoreperformancesimulation",
+  "start": 1739948167618,
+  "description": "",
+  "scenarios": ["Create Pet", "Get Pet", "Update Pet", "Delete Pet"],
+  "assertions": [
+
+  ]
+}
