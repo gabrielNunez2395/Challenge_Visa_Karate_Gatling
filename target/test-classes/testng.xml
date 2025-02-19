@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/gabrielnunezrodriguez/Documents/Davi_Work/Practica_Capitulo/Karate/Ejercicio_I/src/test/resources/features">
+        <classes>
+            <class name="features.">
+                <methods>
+                    <include name="seleniumLength"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
