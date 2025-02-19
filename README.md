@@ -71,7 +71,7 @@ src
 ```
 - Open a terminal in IDE
 - Go to the folder where you want to save the project, Example cd Documents/Pruebas/...
-- git clone https://github.com/gabrielNunez2395/
+- git clone https://github.com/gabrielNunez2395/Challenge_Visa_Karate_Gatling.git
 ```
 
 ###   Run tests:
